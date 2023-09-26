@@ -60,7 +60,7 @@ body {
     font-size: 18px;
 }
 
-.landing-image{
+.landing-image {
     width: 50%;
     height: auto;
 }
@@ -99,12 +99,17 @@ ul {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    gap: 36px;
+    gap: 12px;
+    margin: 0;
+    padding: 0 15%;
 }
 
-.image {
-    border-color: #3882F6;
+.images {
+    border-color: white;
     border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 80%;    
 }
 
 
