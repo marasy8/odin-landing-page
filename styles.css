@@ -59,12 +59,9 @@ body {
     font-size: 18px;
 }
 
-.image-placeholder {
-    display: flex;
-    background-color: darkslategrey;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+.landing-image{
+    max-width: 50%;
+    height: auto;
 }
 
 button {
