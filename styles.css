@@ -75,6 +75,19 @@ body {
     border: 0;
     font-weight: bold;
     margin-top: 8px;
+    font-size: 18px;
+}
+
+.button-2 {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 18px;
 }
 ul {
     list-style-type: none;
@@ -90,13 +103,19 @@ ul {
     padding: 32px;
 }
 
-.info-images,
-.info-text {
+.image-pairs {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 24px;
+    text-align: center;
+    gap: 36px;
 }
+
+.image {
+    border-color: #3882F6;
+    border-width: 5px;
+}
+
 
 .quote-section {
     display: flex;
@@ -109,15 +128,15 @@ ul {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .quote-credits {
     font-size: 24px;
     font-weight: bold;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
     text-align: end;
 }
 
@@ -126,9 +145,13 @@ ul {
     justify-content: space-around;
     background-color: #3882F6;
     padding: 50px;
-    margin: 150px;
+    margin: 100px 12%;
     border-radius: 10px;
 }
 .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
     text-align: center;
+    font-size: 18px;
 }
