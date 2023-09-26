@@ -1,4 +1,4 @@
-# odin-landing-page \
+# odin-landing-page
 
 image credits from top-down, left-right: \
 Kaori Chin on Unsplash \
