@@ -79,10 +79,56 @@ body {
 ul {
     list-style-type: none;
 }
-
+.info-section {
+    margin-bottom: 100px;
+}
 .info-header {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    text-align: center;
+    padding: 32px;
+}
+
+.info-images,
+.info-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.quote-credits {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: end;
+}
+
+.call-action {
+    display: flex;  
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 150px;
+    border-radius: 10px;
+}
+.footer {
     text-align: center;
 }
