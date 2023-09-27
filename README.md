@@ -8,8 +8,8 @@ Luke Stackpoole on Unsplash \
 Alex on Unsplash
 
 
-Some learnings from this project:\
-- created the visual based on the html/css and flexbox info\
-- consolidated some css sections\
+Some learnings from this project:
+- created the visual based on the html/css and flexbox info
+- consolidated some css sections
 - plotting out html divisions
-- looked for pictures of specific sizing\
+- looked for pictures of specific sizing
